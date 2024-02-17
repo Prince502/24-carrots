@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    background-color: #393939;
+    padding: 15px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #1877F2;
+  }
+  
+  /* Hero Styles */
+  .hero {
+    background-color: #1877F2;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 50px 20px;
+    height: 550px;
+    /* width: 100%; */
+  }
+  
+  .carousel {
+    display: flex;
+    overflow: scroll;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .carousel-item {
+    flex: 0 0 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    position: relative;
+    overflow: hidden ;
+  }
+  
+  .carousel-item img {
+    width: 100%;
+    height: 500px;
+    /* height: auto; */
+    border-radius: 10px;
+    transition: transform 0.3s ease-out;
+  }
+  
+  .carousel-item:hover img {
+    transform: scale(1.05);
+  }
+  
+  /* About Section Styles */
+  .about-section {
+    background-color: #FFFFFF;
+    color: #393939;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .about-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Services Section Styles */
+  .services-section {
+    background-color: #393939;
+    color: #FFFFFF;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .services-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .service {
+    width: 30%;
+    margin: 20px 0;
+    text-align: left;
+  }
+  
+  .service img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  /* blank space */
+  .space{
+    background-color: #FFFFFF;
+    color: #393939;
+    padding: 5px 5px;
+    text-align: center;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    background-color: #1877F2;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .contact,
+  .social,
+  .about {
+    flex: 1;
+  }
+  
+  .social-link {
+    display: block;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .social-link:hover {
+    color: #393939;
+  }
+  
