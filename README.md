@@ -1,2 +1,2 @@
-# 24-carrots
+responsive website
 new repo
